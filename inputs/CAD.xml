@@ -1,0 +1,22 @@
+<DistrictEnergyCenter id="1" Cp="4180" rho="990" mu="Vogel-Fulcher-Tammann">
+  <ThermalStation beginDay="1" endDay="365" linkedNodeId="1" type="simple">
+    <Pump efficiencyPump="0.626" n0="1385" a0="1247180" a1="-1640.236" a2="-0.00016031" />
+    <Boiler Pmax="1000" eta_th="1"/> <!-- 1 kW de puissance -->
+    <TemperatureSetpoint type="constant" targetSupplyTemp="18" />
+    <PressureSetpoint type="constant" targetPressureDiff="294191" /> <!-- 30 mCE = 294 191 Pa -->
+  </ThermalStation>
+
+  <Network soilkValue="0.5">
+
+    <ThermalStationNodePair id="1" z="470" />
+
+    <SubstationNodePair id="100" z="470" />
+
+    <PipePair id="1" innerRadius="0.263" interPipeDistance="0.66" length="83.8" node1="1" node2="100">
+      <SupplyPipe buriedDepth="1.5" insulationThick="0.4" insulationkValue="0.026" />
+      <ReturnPipe buriedDepth="1.5" insulationThick="0.4" insulationkValue="0.026" />
+    </PipePair>
+  
+
+  </Network>
+</DistrictEnergyCenter>

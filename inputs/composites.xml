@@ -1,0 +1,136 @@
+<Composite id="4" name="LesosaiBTK W 1" category="Wall">
+  <Layer Thickness="0.0200" Conductivity="0.8700" Cp="1101.59998" Density="1800" NRE="0" GWP="0" UBP="0"/>
+  <Layer Thickness="0.1600" Conductivity="0.0360" Cp="601.200012" Density="60" NRE="0" GWP="0" UBP="0"/>
+  <Layer Thickness="0.0001" Conductivity="0.2000" Cp="1400" Density="960" NRE="0" GWP="0" UBP="0"/>
+  <Layer Thickness="0.2000" Conductivity="0.3500" Cp="900" Density="1100" NRE="0" GWP="0" UBP="0"/>
+  <Layer Thickness="0.0200" Conductivity="0.7000" Cp="900" Density="1400" NRE="0" GWP="0" UBP="0"/>
+</Composite>
+<Composite id="10" name="LesosaiBTK B 1" category="Floor">
+  <Layer Thickness="0.1000" Conductivity="2.3000" Cp="1000" Density="2300" NRE="0" GWP="0" UBP="0"/>
+  <Layer Thickness="0.0500" Conductivity="0.0300" Cp="1400" Density="50" NRE="0" GWP="0" UBP="0"/>
+  <Layer Thickness="0.0001" Conductivity="0.2000" Cp="1400" Density="960" NRE="0" GWP="0" UBP="0"/>
+  <Layer Thickness="0.0500" Conductivity="0.8500" Cp="1000" Density="1200" NRE="0" GWP="0" UBP="0"/>
+  <Layer Thickness="0.0100" Conductivity="1.3000" Cp="838.799988" Density="2300" NRE="0" GWP="0" UBP="0"/>
+</Composite>
+<Composite id="12" name="LesosaiBTK D 1" category="Roof">
+  <Layer Thickness="0.0500" Conductivity="1.4800" Cp="1100" Density="2400" NRE="0" GWP="0" UBP="0"/>
+  <Layer Thickness="0.0010" Conductivity="0.2000" Cp="1600" Density="1200" NRE="0" GWP="0" UBP="0"/>
+  <Layer Thickness="0.1600" Conductivity="0.0400" Cp="600" Density="120" NRE="0" GWP="0" UBP="0"/>
+  <Layer Thickness="0.0001" Conductivity="0.2000" Cp="1400" Density="960" NRE="0" GWP="0" UBP="0"/>
+  <Layer Thickness="0.2000" Conductivity="1.6000" Cp="1000" Density="2200" NRE="0" GWP="0" UBP="0"/>
+</Composite>
+<Composite Uvalue="0.94" id="100" name="Neuchatel 1900-1945 adapted" category="Wall">
+    <Layer Conductivity="0.08" Cp="1000.0" Density="300.0" Name="Insulating Rendering" Thickness="0.02" />
+    <Layer Conductivity="0.81" Cp="1045.0" Density="1600.0" Name="rubbleMasonry" Thickness="0.4" />
+    <Layer Conductivity="0.021" Cp="800.0" Density="900.0" Name="Insulating plaster" Thickness="0.02" />
+</Composite>
+<Composite Uvalue="1.35" id="101" name="Neuchatel 1946-1960 adapted" category="Wall">
+    <Layer Conductivity="0.87" Cp="1100.0" Density="1800.0" Name="Rendering" Thickness="0.02" />
+    <Layer Conductivity="0.81" Cp="1045.0" Density="1600.0" Name="rubbleMasonry" Thickness="0.2" />
+    <Layer Conductivity="0.033" Cp="1005.0" Density="1.2" Name="Air gap" Thickness="0.06" />
+    <Layer Conductivity="0.8" Cp="900.0" Density="1600.0" Name="Hollow clay brick" Thickness="0.08" />
+    <Layer Conductivity="0.43" Cp="1000.0" Density="1200.0" Name="Plaster" Thickness="0.01" />
+</Composite>
+<Composite Uvalue="1.03" id="102" name="Neuchatel 1961-1970 adapted" category="Wall">
+    <Layer Conductivity="0.87" Cp="1100.0" Density="1800.0" Name="Rendering" Thickness="0.02" />
+    <Layer Conductivity="0.8" Cp="900.0" Density="1600.0" Name="Hollow clay brick" Thickness="0.15" />
+    <Layer Conductivity="0.06" Cp="1450.0" Density="30.0" Name="Expanded polystyrene 10-50 kg/m3" Thickness="0.03" />
+    <Layer Conductivity="0.8" Cp="900.0" Density="1600.0" Name="Hollow clay brick" Thickness="0.06" />
+    <Layer Conductivity="0.43" Cp="1000.0" Density="1200.0" Name="Plaster" Thickness="0.01" />
+</Composite>
+<Composite Uvalue="0.88" id="103" name="Neuchatel 1971-1980 adapted" category="Wall">
+    <Layer Conductivity="0.87" Cp="1100.0" Density="1800.0" Name="Rendering" Thickness="0.02" />
+    <Layer Conductivity="0.8" Cp="900.0" Density="1600.0" Name="Hollow clay brick" Thickness="0.15" />
+    <Layer Conductivity="0.06" Cp="1450.0" Density="30.0" Name="Expanded polystyrene 10-50 kg/m3" Thickness="0.04" />
+    <Layer Conductivity="0.8" Cp="900.0" Density="1600.0" Name="Hollow clay brick" Thickness="0.06" />
+    <Layer Conductivity="0.43" Cp="1000.0" Density="1200.0" Name="Plaster" Thickness="0.01" />
+</Composite>
+<Composite Uvalue="0.90" id="104" name="Neuchatel 1981-1990 adapted" category="Wall">
+    <Layer Conductivity="0.87" Cp="1100.0" Density="1800.0" Name="Rendering" Thickness="0.02" />
+    <Layer Conductivity="0.06" Cp="1450.0" Density="30.0" Name="Expanded polystyrene 10-50 kg/m3" Thickness="0.05" />
+    <Layer Conductivity="2.4" Cp="1000.0" Density="2350.0" Name="Reinforced concrete" Thickness="0.17" />
+    <Layer Conductivity="0.43" Cp="1000.0" Density="1200.0" Name="Plaster" Thickness="0.01" />
+</Composite>
+<Composite Uvalue="0.69" id="105" name="Neuchatel 1991-2000 adapted" category="Wall">
+    <Layer Conductivity="0.87" Cp="1100.0" Density="1800.0" Name="Rendering" Thickness="0.02" />
+    <Layer Conductivity="0.06" Cp="1450.0" Density="30.0" Name="Expanded polystyrene 10-50 kg/m3" Thickness="0.07" />
+    <Layer Conductivity="2.4" Cp="1000.0" Density="2350.0" Name="Reinforced concrete" Thickness="0.17" />
+    <Layer Conductivity="0.43" Cp="1000.0" Density="1200.0" Name="Plaster" Thickness="0.01" />
+</Composite>
+<Composite Uvalue="0.51" id="106" name="Neuchatel 2001-2010 adapted" category="Wall">
+    <Layer Conductivity="0.87" Cp="1100.0" Density="1800.0" Name="Rendering" Thickness="0.02" />
+    <Layer Conductivity="0.06" Cp="1450.0" Density="30.0" Name="Expanded polystyrene 10-50 kg/m3" Thickness="0.1" />
+    <Layer Conductivity="2.4" Cp="1000.0" Density="2350.0" Name="Reinforced concrete" Thickness="0.17" />
+    <Layer Conductivity="0.43" Cp="1000.0" Density="1200.0" Name="Plaster" Thickness="0.01" />
+</Composite>
+<Composite Uvalue="0.12" id="107" name="Minergie P wall" category="Wall">
+    <Layer Conductivity="0.87" Cp="1100.0" Density="1800.0" Name="Rendering" Thickness="0.02"/>
+    <Layer Conductivity="0.024" Cp="1000.8" Density="1.23" Name="Air layer " Thickness="0.04"/>
+    <Layer Thickness="0.275" Conductivity="0.032" Cp="601.200012" Density="60" Name="ISOVER PHOENIX 032"/> <!-- Thickness between 0.2 and 0.35 m -->
+    <Layer Conductivity="0.44" Cp="900.0" Density="1600.0" Name="Hollow clay brick" Thickness="0.175" />
+    <Layer Conductivity="0.43" Cp="1000.0" Density="1200.0" Name="Plaster" Thickness="0.01" />
+</Composite>
+<Composite Uvalue="0.20" id="108" name="Neuchatel 1900-1945 insulated" category="Wall">
+    <Layer Conductivity="0.08" Cp="1000.0" Density="300.0" Name="Insulating Rendering" Thickness="0.02"/>
+    <Layer Conductivity="1.3" Cp="800.0" Density="2000.0" Name="rubbleMasonry" Thickness="0.4"/>
+    <Layer Conductivity="0.038" Cp="1400.0" Density="20.0" Name="PS 20 polystyrene" Thickness="0.15"/>
+    <Layer Conductivity="0.21" Cp="800.0" Density="900.0" Name="Plaster board cardboard faced " Thickness="0.02"/>
+</Composite>
+<Composite Uvalue="0.20" id="109" name="Neuchatel 1946-1960 insulated" category="Wall">
+    <Layer Conductivity="0.87" Cp="1100.0" Density="1800.0" Name="Rendering" Thickness="0.02"/>
+    <Layer Conductivity="0.038" Cp="1400.0" Density="20.0" Name="PS 20 polystyrene" Thickness="0.13"/>
+    <Layer Conductivity="1.3" Cp="800.0" Density="2000.0" Name="rubbleMasonry" Thickness="0.2"/>
+    <Layer Conductivity="0.06" Cp="1450.0" Density="30.0" Name="Expanded polystyrene 10-50 kg/m3 " Thickness="0.06"/>
+    <Layer Conductivity="0.8" Cp="900.0" Density="1600.0" Name="Hollow clay brick" Thickness="0.08"/>
+    <Layer Conductivity="0.43" Cp="1000.0" Density="1200.0" Name="Plaster" Thickness="0.01"/>
+</Composite>
+<Composite Uvalue="0.20" id="110" name="Neuchatel 1961-1980 insulated" category="Wall">
+    <Layer Conductivity="0.87" Cp="1100.0" Density="1800.0" Name="Rendering" Thickness="0.02"/>
+    <Layer Conductivity="0.038" Cp="1400.0" Density="20.0" Name="PS 20 polystyrene" Thickness="0.13"/>
+    <Layer Conductivity="0.8" Cp="900.0" Density="1600.0" Name="Hollow clay brick" Thickness="0.15"/>
+    <Layer Conductivity="0.06" Cp="1450.0" Density="30.0" Name="Expanded polystyrene 10-50 kg/m3 " Thickness="0.06"/>
+    <Layer Conductivity="0.8" Cp="900.0" Density="1600.0" Name="Hollow clay brick" Thickness="0.06"/>
+    <Layer Conductivity="0.43" Cp="1000.0" Density="1200.0" Name="Plaster" Thickness="0.01"/>
+</Composite>
+<Composite Uvalue="0.20" id="111" name="Neuchatel 1981-2010 insulated" category="Wall">
+    <Layer Conductivity="0.87" Cp="1100.0" Density="1800.0" Name="Rendering" Thickness="0.02"/>
+    <Layer Conductivity="0.038" Cp="1400.0" Density="20.0" Name="PS 20 polystyrene" Thickness="0.18"/>
+    <Layer Conductivity="2.4" Cp="1100.0" Density="2350.0" Name="Reinforced concrete" Thickness="0.17"/>
+    <Layer Conductivity="0.43" Cp="1000.0" Density="1200.0" Name="Plaster" Thickness="0.01"/>
+</Composite>
+<Composite Uvalue="0.70" id="200" name="Neuchatel 1900-1945 adapted roof" category="Roof"/>
+<Composite Uvalue="0.70" id="201" name="Neuchatel 1946-1960 adapted roof" category="Roof"/>
+<Composite Uvalue="0.65" id="202" name="Neuchatel 1961-1970 adapted roof" category="Roof"/>
+<Composite Uvalue="0.60" id="203" name="Neuchatel 1971-1980 adapted roof" category="Roof"/>
+<Composite Uvalue="0.43" id="204" name="Neuchatel 1981-1990 adapted roof" category="Roof"/>
+<Composite Uvalue="0.31" id="205" name="Neuchatel 1991-2000 adapted roof" category="Roof"/>
+<Composite Uvalue="0.25" id="206" name="Neuchatel 2001-2010 adapted roof" category="Roof"/>
+<Composite Uvalue="0.12" id="207" name="Minergie P roof" category="Roof" />
+<Composite Uvalue="0.33" id="208" name="Neuchatel 1900-1945 insulated roof" category="Roof"/>
+<Composite Uvalue="0.32" id="209" name="Neuchatel 1946-1960 insulated roof" category="Roof"/>
+<Composite Uvalue="0.32" id="210" name="Neuchatel 1961-1970 insulated roof" category="Roof"/>
+<Composite Uvalue="0.34" id="211" name="Neuchatel 1971-1980 insulated roof" category="Roof"/>
+<Composite Uvalue="0.32" id="212" name="Neuchatel 1981-1990 insulated roof" category="Roof"/>
+<Composite Uvalue="0.27" id="213" name="Neuchatel 1991-2000 insulated roof" category="Roof"/>
+<Composite Uvalue="0.20" id="214" name="Neuchatel 2001-2010 insulated roof" category="Roof"/>
+<Composite Uvalue="1.60" id="300" name="Neuchatel 1900-1945 adapted floor" category="Floor"/>
+<Composite Uvalue="1.60" id="301" name="Neuchatel 1946-1960 adapted floor" category="Floor"/>
+<Composite Uvalue="1.60" id="302" name="Neuchatel 1961-1970 adapted floor" category="Floor"/>
+<Composite Uvalue="1.60" id="303" name="Neuchatel 1971-1980 adapted floor" category="Floor"/>
+<Composite Uvalue="1.60" id="304" name="Neuchatel 1981-1990 adapted floor" category="Floor"/>
+<Composite Uvalue="1.60" id="305" name="Neuchatel 1991-2000 adapted floor" category="Floor"/>
+<Composite Uvalue="1.60" id="306" name="Neuchatel 2001-2010 adapted floor" category="Floor"/>
+<Composite Uvalue="0.18" id="307" name="Minergie P floor" category="Floor" />
+<Composite Uvalue="0.33" id="308" name="Neuchatel 1900-1945 insulated floor" category="Floor"/>
+<Composite Uvalue="0.33" id="309" name="Neuchatel 1946-1960 insulated floor" category="Floor"/>
+<Composite Uvalue="0.32" id="310" name="Neuchatel 1961-1970 insulated floor" category="Floor"/>
+<Composite Uvalue="0.36" id="311" name="Neuchatel 1971-1980 insulated floor" category="Floor"/>
+<Composite Uvalue="0.33" id="312" name="Neuchatel 1981-1990 insulated floor" category="Floor"/>
+<Composite Uvalue="0.33" id="313" name="Neuchatel 1991-2000 insulated floor" category="Floor"/>
+<Composite Uvalue="0.27" id="314" name="Neuchatel 2001-2010 insulated floor" category="Floor"/>
+<Composite id="400" name="Asphalt road" category="Ground">
+  <Layer name="Cast asphalt" Thickness="0.0250" Conductivity="0.7000" Cp="1100" Density="2150" />
+  <Layer name="Soil sand and gravel" Thickness="0.0500" Conductivity="2.0000" Cp="1051.19995" Density="2000" />
+  <Layer name="Gravel" Thickness="0.0500" Conductivity="2.0000" Cp="1051.19995" Density="2000" />
+  <Layer name="Molasse" Thickness="1.375" Conductivity="1.5000" Cp="2098.80005" Density="1500" />
+</Composite>
